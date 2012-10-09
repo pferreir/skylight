@@ -1,0 +1,189 @@
+
+@font-face {
+    font-family: 'NewCicleSemi';
+    src: url('fonts/New_Cicle_Semi-webfont.eot');
+    src: url('fonts/New_Cicle_Semi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/New_Cicle_Semi-webfont.woff') format('woff'),
+         url('fonts/New_Cicle_Semi-webfont.ttf') format('truetype'),
+         url('fonts/New_Cicle_Semi-webfont.svg#NewCicleSemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OstrichSansMedium';
+    src: url('fonts/ostrich-regular-webfont.eot');
+    src: url('fonts/ostrich-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ostrich-regular-webfont.woff') format('woff'),
+         url('fonts/ostrich-regular-webfont.ttf') format('truetype'),
+         url('fonts/ostrich-regular-webfont.svg#OstrichSansMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+
+}
+
+body {
+    font-size: 14pt;
+    background-color: #004455;
+    font-family: NewCicleSemi, Helvetica, Sans-Serif;
+    color: #777;
+}
+
+.container-fluid {
+    margin: auto;
+    padding: 0;
+    max-width: 940px;
+    width: 100%;
+}
+
+div.container-fluid.main {
+    background-color: #eee;
+    box-shadow: 0 0 10px 2px #222;
+}
+ 
+h1, h2, h3 { 
+    color: #169abc;
+    font-weight: normal;
+    font-family: OstrichSansMedium, helvetica, verdana, sans-serif;  
+    text-shadow: 1px 1px #fff;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1.1em;
+}
+
+h2 {
+    font-size: 2.2em;
+    line-height: 1.1em;
+}
+
+h3 {
+    font-size: 1.7em;
+    line-height: 1.1em;
+}
+
+div {
+
+}
+
+h1#i_am {
+    margin-top: 40px;
+    color: #999;
+    text-align: center;
+}
+
+h1#i_am .name {
+    color: #169abc;
+}
+
+#avatar {
+    max-width: 150px;
+    padding: 10px;
+}
+
+#avatar img {
+    width: 100%;
+
+}
+
+header {
+    overflow: auto;
+    background: #ededed;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+div#tagline {
+    text-align: center;
+    width: 100%;
+    font-size: 1.7em;
+    color: #ccc;
+}
+
+div.navbar-skylight {
+    border-top: 5px solid #169abc;
+    margin-bottom: 0px;
+}
+
+div.navbar-skylight .navbar-inner {
+    border-top: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.affix {
+    position: fixed; 
+    top: 0px;
+    width: 100%;
+    max-width: 940px;
+}
+
+section {
+    margin: 5px;
+    background-color: #f5f5f5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+}
+
+ul {
+    margin-top: 5px;
+}
+
+ul li {
+    margin-top: 5px;
+
+}
+
+ul.spaced-out li {
+    margin-bottom: 5px;
+}
+
+
+#modal-video {
+    width: 680px;
+}
+
+#modal-video .modal-body {
+    max-height: 500px;
+}
+
+.hidden-phone {
+    display: inherit !important;
+}
+
+
+@media (max-width: 767px) {
+    body {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .hidden-phone {
+        display: none !important;
+    }
+}
+
+h3 .font-icon-github {
+    margin-left: 0.5em;
+    font-size: 0.6em;
+    color: #999;
+    text-decoration: none;
+}
+
+h3 .font-icon-github:hover {
+    color: #333;
+}
