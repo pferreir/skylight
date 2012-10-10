@@ -30,6 +30,7 @@ html {
 body {
     font-size: 14pt;
     background-color: #004455;
+
     font-family: NewCicleSemi, Helvetica, Sans-Serif;
     color: #777;
 }
@@ -43,7 +44,7 @@ body {
 
 div.container-fluid.main {
     background-color: #eee;
-    box-shadow: 0 0 10px 2px #222;
+    box-shadow: 0 0 10px 2px #555;
 }
  
 h1, h2, h3 { 
@@ -132,11 +133,10 @@ div.navbar-skylight .navbar-inner {
 section {
     margin: 5px;
     background-color: #f5f5f5;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
     padding: 10px 20px;
-    border: 1px solid #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff #e0e0e0 #e0e0e0 #fff;
 }
 
 ul {
